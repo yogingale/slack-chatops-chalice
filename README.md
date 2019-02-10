@@ -21,7 +21,7 @@ You'll get some ready to use slack commands for Operations team in web developme
 
 ## Chatbot in Action:
 
-Command : `/domain-type-list google.com, www.fb.com, yogesh.com, menhealth.kz`
+Command 1 : `/domain-type-list google.com, www.fb.com, yogesh.com, menhealth.kz`
 
 ![SS](/static/domain_Q.png)
 
@@ -30,7 +30,7 @@ Response :
 ![SS](/static/domain_A.png)
 
 
-Command : `/dns-check-list facebook.com, fb.com`
+Command 2 : `/dns-check-list facebook.com, fb.com`
 
 ![SS](/static/dns_Q.png)
 
@@ -39,7 +39,7 @@ Response :
 ![SS](/static/dns_A.png)
 
 
-Command : `/ssl-info-list google.com, www.facebook.com`
+Command 3 : `/ssl-info-list google.com, www.facebook.com`
 
 ![SS](/static/ssl_Q.png)
 
