@@ -18,3 +18,31 @@ You'll get some ready to use slack commands for Operations team in web developme
 - Add your own python functions in ```app.py``` and ```/chalicelib/workers.py``` Or Make use of available web operation team's functions.
 - ```chalice deploy```
 - [Create simple Slack commands](https://api.slack.com/tutorials/easy-peasy-slash-commands) and add API Gateway links created with ```chalice deploy``` command.
+
+## Chatbot in Action:
+
+Command : `/domain-type-list google.com, www.fb.com, yogesh.com, menhealth.kz`
+
+![SS](/static/domain_Q.png)
+
+Response :
+
+![SS](/static/domain_A.png)
+
+
+Command : `/dns-check-list facebook.com, fb.com`
+
+![SS](/static/dns_Q.png)
+
+Response : 
+
+![SS](/static/dns_A.png)
+
+
+Command : `/ssl-info-list google.com, www.facebook.com`
+
+![SS](/static/ssl_Q.png)
+
+Response : 
+
+![SS](/static/ssl_A.png)
