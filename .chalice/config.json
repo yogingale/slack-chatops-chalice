@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "app_name": "chatops",
+  "lambda_timeout": 120,
+  "environment_variables":{
+  	"TopicArn":"<Your TopicArn goes here>",
+  	"slack_API_token":"<Your Slack API token goes here>" 
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
