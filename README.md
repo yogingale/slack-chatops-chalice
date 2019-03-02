@@ -1,6 +1,6 @@
 # Slack + AWS Chalice + Your Python Scripts
 
-Slack commands integration with regular operations tasks is what your development and operations team needs. This codebase have a **Skeleton for Master and Slave Lambda integration using SNS service**.
+Slack commands integration with regular operations tasks is what your team needs. This codebase have a **Skeleton for Master and Slave Lambda integration using SNS service**.
 You'll get some ready to use slack commands for Web industry.
 
 
