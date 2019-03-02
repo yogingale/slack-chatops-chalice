@@ -1,7 +1,7 @@
-# Slack + AWS Chalice + Your Python Fuctions
+# Slack + AWS Chalice + Your Python Scripts
 
-Slack commands integration with regular operations tasks is what your development and operations team needs. This codebase have a **Skeleton for Master and Slave Lambda functions integration using SNS service**.
-You'll get some ready to use slack commands for Operations team in web development.
+Slack commands integration with regular operations tasks is what your development and operations team needs. This codebase have a **Skeleton for Master and Slave Lambda integration using SNS service**.
+You'll get some ready to use slack commands for Web industry.
 
 
 ## Pre-requisits:
@@ -9,7 +9,7 @@ You'll get some ready to use slack commands for Operations team in web developme
 - ```pip install chalice```
 - [AWS acceess credentials](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/) in ```~/.aws/config```
 - Generate [slack_API_token](https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens) and [AWS SNS Topic](https://docs.aws.amazon.com/gettingstarted/latest/deploy/creating-an-sns-topic.html)
-- Add above slack token and SNS topic in ```.chalice/config.json``` file as environment variables.
+- Add above slack token and SNS topic in ```.chalice/config.json``` [file](https://github.com/yogingale/slack-chatops-chalice/blob/master/.chalice/config.json#L6-L7) as environment variables.
 
 
 ## Usage:
